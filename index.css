@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Raleway");
+body {
+  background: #f9f9f9;
+  font-family: "Roboto", sans-serif;
+}
+
+a:visited {
+  color: #CC343C;
+}
+
+a {
+  color: #CC343C;
+}
+
+a:active {
+  color: #471A28;
+}
+
+a:hover {
+  color: #471A28;
+}
+
+header {
+  padding: 1rem;
+  text-align: center;
+}
+header h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+  color: #252525;
+  letter-spacing: 0.5rem;
+  margin-bottom: 1rem;
+}
+header h2 {
+  background: #ABFF3A;
+  color: #252525;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 0 4rem 2rem 4rem;
+}
+
+.about {
+  margin: 0.5rem 4rem 0.5rem 4rem;
+}
+
+.projects {
+  margin: 3rem 4rem 3rem 4rem;
+}
+.projects ul {
+  list-style: none;
+}
+.projects p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.project-title {
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=index.css.map */
