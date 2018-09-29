@@ -1,15 +1,69 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto|Raleway");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 body {
   background: #f9f9f9;
   font-family: "Roboto", sans-serif;
 }
 
 a:visited {
-  color: #CC343C;
+  color: #00506d;
 }
 
 a {
-  color: #CC343C;
+  color: #00506d;
 }
 
 a:active {
@@ -32,19 +86,19 @@ header h1 {
   margin-bottom: 1rem;
 }
 header h2 {
-  background: #ABFF3A;
-  color: #252525;
+  background: #007daa;
+  color: #f9f9f9;
   font-size: 1.5rem;
   padding: 1rem;
   margin: 0 4rem 2rem 4rem;
 }
 
 .about {
-  margin: 0.5rem 4rem 0.5rem 4rem;
+  margin: 0.5rem 5rem 0.5rem 5rem;
 }
 
 .projects {
-  margin: 3rem 4rem 3rem 4rem;
+  margin: 3rem 5rem 3rem 5rem;
 }
 .projects ul {
   list-style: none;
@@ -56,6 +110,20 @@ header h2 {
 
 .project-title {
   font-size: 2rem;
+}
+
+@media only screen and (min-width: 700px) {
+  .about {
+    margin: 0.5rem 8rem 0.5rem 8rem;
+  }
+
+  .projects {
+    margin: 3rem 8rem 3rem 8rem;
+  }
+
+  header h2 {
+    margin: 0 6rem 2rem 6rem;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
