@@ -50,11 +50,11 @@ table {
 $blue: #5fd4ff;
 $grey: #252525;
 $orange-link: #f49e42;
-$darkred: #471A28;
+$darkblue: #2c3057;
 $white: #f9f9f9;
 
 body {
-	background: $darkred;
+	background: $darkblue;
 	background-image: url('bg.png');
 	font-family: 'Roboto', sans-serif;
 	color: $white;
@@ -66,10 +66,10 @@ a {
 	color: $orange-link;
 }
 a:active {
-	color: $darkred;
+	color: $white;
 }
 a:hover {
-	color: $darkred;
+	color: $white;
 }
 header {
 	padding: 1rem;
