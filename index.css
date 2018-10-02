@@ -54,8 +54,8 @@ table {
 }
 
 body {
-  background: #f9f9f9;
-  background-image: url(bg.png);
+  background: #471A28;
+  background-image: url("bg.png");
   font-family: "Roboto", sans-serif;
   color: #f9f9f9;
 }
