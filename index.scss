@@ -54,8 +54,8 @@ $darkred: #471A28;
 $white: #f9f9f9;
 
 body {
-	background: $white;
-	background-image: url(bg.png);
+	background: $darkred;
+	background-image: url('bg.png');
 	font-family: 'Roboto', sans-serif;
 	color: $white;
 }
