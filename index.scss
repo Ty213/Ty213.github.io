@@ -47,21 +47,23 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-$blue: #007daa;
+$blue: #5fd4ff;
 $grey: #252525;
-$blue-link: #00506d;
+$orange-link: #f49e42;
 $darkred: #471A28;
 $white: #f9f9f9;
 
 body {
 	background: $white;
+	background-image: url(bg.png);
 	font-family: 'Roboto', sans-serif;
+	color: $white;
 }
 a:visited {
-	color: $blue-link;
+	color: $orange-link;
 }
 a {
-	color: $blue-link;
+	color: $orange-link;
 }
 a:active {
 	color: $darkred;
@@ -75,12 +77,11 @@ header {
 	h1 {
 		font-family: 'Raleway', sans-serif;
 		font-size: 3rem;
-		color: $grey;
+		color: $white;
 		letter-spacing: .5rem;
 		margin-bottom: 1rem;
 	}
 	h2 {
-		background: $blue;
 		color: $white;
 		font-size: 1.5rem;
 		padding: 1rem;
